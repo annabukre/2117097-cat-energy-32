@@ -1,0 +1,36 @@
+.additional-products__title {
+  font-family: $secondary-font;
+  font-size: 24px;
+  line-height: 24px;
+  color: $basic-dark;
+}
+
+.additional-products__list {
+  list-style: none;
+}
+
+.additional-products__name {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+  color: $basic-dark-text;
+}
+
+.additional-products__specification {
+  line-height: 14px;
+}
+
+.additional-products__value {
+  line-height: 14px;
+}
+
+.additional-products__gift-box {
+  background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85));
+}
+
+.additional-products__description {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: $basic-light;
+}

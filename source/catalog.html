@@ -38,12 +38,9 @@
   </header>
 
   <main class="main-catalog">
-    <div class="main-catalog__wrapper">
-      <h1 class="main-catalog__title">Каталог продукции</h1>
-    </div>
     <section class="catalog">
       <div class="catalog__wrapper">
-        <h2 class="visually hidden">Найдено товаров:</h2>
+        <h1 class="catalog__headline">Каталог продукции</h1>
         <ul class="catalog__list">
           <li class="catalog__item">
             <picture>
@@ -188,10 +185,10 @@
             </div>
             <a class="catalog__button button" href="#">Заказать</a>
           </li>
-          <li class="products__item show-all">
-            <h3 class="show-all__title show-all__title--more">Показать еще 100500 товаров</h3>
-            <p class="show-all__text show-all__text--more">На самом деле вкусов гораздо больше!</p>
-            <button class="catalog__button catalog__button--more" type="button">показать все</button>
+          <li class="catalog__item show-all">
+            <h3 class="show-all__title">Показать еще 100500 товаров</h3>
+            <p class="show-all__text">На самом деле вкусов гораздо больше!</p>
+            <button class="show-all__button button" type="button">показать все</button>
           </li>
         </ul>
       </div>
@@ -238,14 +235,14 @@
           <p class="additional-products__description">Закажите все и получите чехол для кота в подарок!</p>
         </div>
       </div>
-    </section>>
+    </section>
     <section class="promotions">
       <div class="promotions__wrapper">
         <h2 class="promotions__title">Акции и новинки</h2>
         <p class="promotions__description">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
         <form class="promotions__form" action="#" method="post">
           <label class="visually-hidden" for="promotions-email">кuklachev@gmail.com</label>
-          <input class="field" placeholder="кuklachev@gmail.com" type="email" name="promotions-email" id="promotions-email" required="">
+          <input class="promotions__mail" placeholder="кuklachev@gmail.com" type="email" name="promotions-email" id="promotions-email" required="">
           <button class="promotions__button button" type="submit">Подписаться
           </button>
         </form>
@@ -264,8 +261,8 @@
       <div class="contacts__map">
         <!-- здесь будет карта -->
         <picture>
-          <source type="image/png" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x" width="1440px" height="400px">
-          <source type="image/png" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x" width="768px" height="400px">
+          <source width="1440px" height="400px" type="image/png" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
+          <source width="768px" height="400px" type="image/png" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
           <img class="contacts__map-img" src="images/map-mobile@1x.png" srcset="images/map-mobile@2x.png" width="320" height="362" alt="Местоположение магазина на карте">
         </picture>
       </div>
