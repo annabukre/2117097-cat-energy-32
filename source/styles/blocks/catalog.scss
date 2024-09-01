@@ -1,0 +1,23 @@
+.catalog {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.catalog__headline {
+  font-family: $secondary-font;
+  font-size: 36px;
+  line-height: 36px;
+  color: $basic-dark;
+}
+
+.catalog__list {
+  list-style: none;
+}
+
+.catalog__title {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  color: $basic-dark-text;
+  text-transform: uppercase;
+}
