@@ -19,6 +19,13 @@
   text-align: center;
 }
 
+.example__option {
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: $basic-grey-text;
+}
+
 .example__cost-title {
   font-family: $secondary-font;
   font-size: 14px;

@@ -1,6 +1,8 @@
 .show-all__title {
   font-family: $secondary-font;
   color: #111111;
+  size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -8,4 +10,14 @@
 .show-all__button {
   background-color: $bg-color-third;
   color: $basic-grey-text;
+}
+
+.show-all__text::before {
+  content: "";
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../icons/stack.svg#plus");
 }

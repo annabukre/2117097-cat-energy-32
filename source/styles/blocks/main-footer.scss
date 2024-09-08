@@ -1,3 +1,29 @@
 .main-footer {
   font-family: $bg-color-third;
 }
+
+.main-footer__social {
+  display: block;
+  content: "";
+  mask-image: var(--icons);
+  background-color: $social-link-color;
+
+  &:hover {
+    background-color: $accent-color;
+  }
+
+  &:active {
+    background-color: $accent-color;
+    opacity: 0.3;
+  }
+
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.main-footer__logo-htmlacademy {
+  width: 27px;
+  height: 34px;
+  --icons: url("../../icons/stack.svg#html-academy");
+}

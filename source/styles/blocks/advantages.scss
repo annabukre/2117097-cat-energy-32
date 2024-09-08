@@ -1,3 +1,7 @@
+.contacts__address {
+  font-style: normal;
+}
+
 .advantages__title {
   font-family: $secondary-font;
   font-size: 36px;
@@ -7,4 +11,40 @@
 
 .advantages__list {
   list-style: none;
+}
+
+.advantages__item {
+  color: $basic-grey-text;
+}
+
+.advantages__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: $bg-color-secondary;
+  background-image: var(--icons);
+  background-repeat: no-repeat;
+}
+
+
+.advantages__item--benefit {
+  background-size: 25px 28px;
+  --icons: url("../../icons/stack.svg#benefit");
+}
+
+.advantages__item--form {
+  background-size: 26px 29px;
+  --icons: url("../../icons/stack.svg#form");
+}
+
+.advantages__item--dose {
+  background-size: 25px 30px;
+  --icons: url("../../icons/stack.svg#dose");
+}
+
+.advantages__item--changes {
+  background-size: 26px 31px;
+  --icons: url("../../icons/stack.svg#changes");
 }

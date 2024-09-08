@@ -12,3 +12,13 @@
   color: $basic-dark;
   text-align: center;
 }
+
+.main-nav__toggle {
+  cursor: pointer;
+  background-image: url("../../icons/stack.svg#lines");
+  background-color: $bg-color-primary;
+  border: none;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+}
